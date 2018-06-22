@@ -1,0 +1,129 @@
+.about-page{
+	.intro {
+		.content{
+			p{
+				margin: .2rem 0;
+			}
+			border-bottom: 0;
+		}
+		.img{
+			img{
+				display: block;
+				width: 100%;
+			}
+		}
+	}
+	.dev-path{
+		background-color: #212b66;
+		padding: .25rem .2rem;
+		.title{
+			h3{
+				color: #ffffff;
+			}
+			.en{
+				color: #999999;
+			}
+		}
+		.swiper-slide{
+			padding-bottom: .7rem;
+			.img,.txt{
+				display: inline-block;
+				vertical-align: top;
+			}
+			.img{
+				padding-top: .2rem;
+				img{
+					width: 2.3rem;
+				}
+			}
+			.txt{
+				width: 3.3rem;
+				color: #ffffff;
+				h3{
+					font-size: .7rem;
+				}
+				p{
+					font-size: .16rem;
+					line-height: .18rem;
+				}
+			}
+			&:nth-child(1),&:nth-child(3){
+				.img{
+					margin-right: .2rem;
+				}
+			}
+			&:nth-child(2),&:nth-child(4){
+				.txt{
+					margin-right: .2rem;
+				}
+				h3{
+					text-align: right;
+				}
+			}
+		}
+	    .swiper-pagination-bullets .swiper-pagination-bullet{
+			bottom:0;
+			width: .74rem;
+			height: 2px;
+			background-color: #ffffff;
+			color: #ffffff;
+			border-radius: 0;
+			position: relative;
+			&:before,{
+				position: absolute;
+				font-size: .15rem;
+				top: -.25rem;
+				left: .2rem;
+			}
+			&:nth-child(1):before{
+				content: '2014';
+			}
+			&:nth-child(2):before{
+				content: '2015';
+			}
+			&:nth-child(3):before{
+				content: '2016';
+			}
+			&:nth-child(4):before{
+				content: '2017';
+			}
+		}
+		.swiper-container-horizontal .swiper-pagination-bullets .swiper-pagination-bullet{
+			margin: 0 .1rem;
+		}
+		.swiper-container-horizontal .swiper-pagination-bullets .swiper-pagination-bullet-active{
+			color: #499aff;
+			background-color: #499aff;
+		}
+	}
+	.students{
+		.des{
+			font-size: .18rem;
+			line-height: .25rem;
+			text-align: center;
+		}
+		ul{
+			display: -webkit-flex;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			li{
+				width: 2.7rem;
+				overflow: hidden;
+				border:2px solid #004a74;
+				margin-top: .25rem;
+				img{
+					display: block;
+					width: 100%;
+				}
+			}
+		}
+	}
+	.coach{
+		.content{
+			img{
+				width: 100%;
+			}
+		}
+	}
+}

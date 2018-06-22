@@ -1,0 +1,23 @@
+{
+  "name": "johnson",
+  "version": "1.0.0",
+  "description": "乔森驾校",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "author": "zhumzh",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "gulp-clean-css":"*",
+    "gulp-clean":"*",
+    "gulp-uglify":"*",
+    "gulp-minify-css":"*",
+    "gulp-concat":"*",
+    "gulp-rename":"*",
+    "cssspriter": "*",
+    "gulp": "^3.9.1"
+  }
+}

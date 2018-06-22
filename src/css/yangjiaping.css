@@ -1,0 +1,79 @@
+.yangjiaping-page .contact .map,
+.jiangbei-page .contact .map {
+  width: 6rem;
+  height: 5rem;
+}
+.yangjiaping-page .contact .txt h5,
+.jiangbei-page .contact .txt h5 {
+  margin: .15rem 0;
+  font-size: .22rem;
+  font-weight: normal;
+  line-height: .32rem;
+}
+.yangjiaping-page .contact .txt h5 i,
+.jiangbei-page .contact .txt h5 i {
+  width: .32rem;
+  height: .32rem;
+  margin-right: .2rem;
+  display: inline-block;
+  vertical-align: top;
+}
+.yangjiaping-page .contact h3,
+.jiangbei-page .contact h3 {
+  font-size: .25rem;
+  margin-top: .1rem;
+}
+.yangjiaping-page .campus .content,
+.jiangbei-page .campus .content {
+  width: 6rem;
+}
+.yangjiaping-page .campus .content .swiper-wrapper,
+.jiangbei-page .campus .content .swiper-wrapper {
+  width: 6rem;
+}
+.yangjiaping-page .campus .content img,
+.jiangbei-page .campus .content img {
+  width: 6rem;
+}
+.yangjiaping-page .coach ul li,
+.jiangbei-page .coach ul li {
+  width: 2.2rem;
+  overflow: hidden;
+  position: relative;
+  margin: .2rem .4rem;
+  float: left;
+}
+.yangjiaping-page .coach ul li img,
+.jiangbei-page .coach ul li img {
+  display: block;
+  width: 2.2rem;
+}
+.yangjiaping-page .coach ul li .detail,
+.jiangbei-page .coach ul li .detail {
+  position: absolute;
+  bottom: 0;
+  z-index: 20;
+}
+.yangjiaping-page .coach ul li .detail p,
+.jiangbei-page .coach ul li .detail p {
+  text-indent: 0;
+}
+.yangjiaping-page .coach ul li .detail p.name,
+.jiangbei-page .coach ul li .detail p.name {
+  line-height: .55rem;
+  background-color: #212b66;
+  color: #ffffff;
+  left: 0;
+  top: 1.7rem;
+  width: 100%;
+  text-align: center;
+}
+.yangjiaping-page .coach ul li .detail .des,
+.jiangbei-page .coach ul li .detail .des {
+  height: 1.5rem;
+  overflow: hidden;
+  font-size: .16rem;
+  line-height: .2rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: .1rem .05rem;
+}

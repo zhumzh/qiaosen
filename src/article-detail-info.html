@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="wap-font-scale" content="no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>乔森资讯-乔森驾校</title>
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<link rel="stylesheet" type="text/css" href="./css/img.css">
+	<link rel="stylesheet" type="text/css" href="./css/article.css">
+	<script>
+	(function(doc) {
+	    var clientWidth = doc.documentElement.clientWidth || window.innerWidth;
+	    clientWidth = clientWidth > 640 ? 640 : clientWidth;
+	    var rem = clientWidth / 640 * 100;
+	    doc.querySelector('html').style.fontSize = rem + 'px';
+	})(document);
+	</script>
+</head>
+<body>
+	<div class="page-wrap article-page">
+		<div class="header clear-fix">
+			<img class="logo" src="./images/logo.png"/>
+			<div class="hotline"><i class="hotline-icon"></i>023-68109999</div>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="chongqing.html">重庆学车</a></li>
+				<li><a href="yangjiaping.html">杨家坪学车</a></li>
+				<li><a href="jiangbei.html">江北学车</a></li>
+				<li><a href="article-list-cheats.html">学车问答</a></li>
+				<li><a href="article-list-cheats.html">学车技巧</a></li>
+				<li><a href="about.html">关于乔森</a></li>
+				<li><a href="article-list-info.html">乔森资讯</a></li>
+			</ul>
+		</div>
+		<div class="banner"><img src="./images/article/info-banner.jpg"/></div>
+		<div class="section article-detail">
+			<h1>乔森资讯</h1>
+			<div class="else">发布时间：2017-12-31  阅读：12 次</div>
+			<div class="detail-txt">
+				 <p> 在重庆驾校学员最需要什么？驾校最需给学员安利什么？现在的人有各种选择困难，作为驾培行业从业人员，我们务必知道学员需要什么。学员的需求有很多种：交通便利、离家近、拿证快、教练好、服务好、质量......有太多需求，这种多样化的需求可能会使我们不知所措。因为学员不会主动的去告诉我们，他到底需要什么。对于一个毫无经验甚至无任何消费经验的学车小白来说，或许他根本不晓得自己需要什么，因为他对驾考流程一无所知。</p>
+				 <p>重庆驾校中有部分驾校凭着“低价”、“快速”“包”等字眼吸引消费者，因为这些字眼都是消费者常常遇到的，比如商场里的打折促销，低价甩卖、快递公司的快速送达、电器保修包退.....对于这些简单又容易理解的词语他们往往都是很容易产生好奇感，到底有多低，有多快速。但商家往往发现即便这样，也无法抓住他们的需求心。</p>
+			</div>
+			<!-- 点赞分享 start -->
+			<div class="control clear-fix">
+				<div class="like-wrap">
+					<a href="javascript:;" class="like-icon"></a>
+					<p><span>(<i class="num">0</i>)</span></p>
+				</div>
+				<div class="share-wrap">
+					<a href="javascript:;" class="share-icon"></a>
+					<div class="share-bar">
+						<a href="javascript:;" class="weibo-icon"></a>|
+						<a href="javascript:;" class="wechat-icon"></a>|
+						<a href="javascript:;" class="qq-icon"></a>
+					</div>
+				</div>
+			</div>
+			<!-- 点赞分享 end -->
+			<div class="handle">
+				<ul class="clear-fix">
+					<li class="fl"><a href="article-detail-cheats.html"><i class="prev-icon"></i>上一篇：惺惺惜惺惺想</a></li>
+					<li class="fr">下一篇：没有了<i class="next-icon"></i></li>
+				</ul>
+			</div>
+		</div>
+		<!-- footer -->
+		<div class="footer">重庆乔森驾驶培训有限公司  @版权所有渝ICP备17006172号</div>
+	</div>
+	<div class="fix-bar">
+		<a class="chat" href=""><i class="bar-chat-icon"></i><span>咨询</span></a>
+		<a class="phone" href="#"><i class="bar-phone-icon"></i><span>咨询热线</span></a>
+		<a class="top" href="#"><i class="bar-top-icon"></i></a>
+	</div>
+</body>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/swiper-3.4.2.jquery.min.js"></script>
+<script type="text/javascript" src="./js/zturn.js"></script>
+<script>
+	$(function(){
+		$('.like-icon').click(function(){
+			var $like = $('.like-wrap');
+			var num = parseInt($like.find('.num').html());
+			if($like.hasClass('active')){
+				--num;
+			}else{
+				++num;
+			}
+			$like.toggleClass('active')
+			$like.find('.num').html(num)
+		})
+		$('.share-icon').click(function(){
+			$('.share-wrap').toggleClass('active')
+		})
+	})
+</script>
+</html>

@@ -1,0 +1,147 @@
+.chongqing-page .course-description .content {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.chongqing-page .course-description .content .item {
+  width: 2.66rem;
+  height: 3.3rem;
+  margin-top: .3rem;
+}
+.chongqing-page .course-description .content .item .item-top {
+  width: 100%;
+  height: 1.65rem;
+  overflow: hidden;
+  position: relative;
+}
+.chongqing-page .course-description .content .item .item-top img {
+  display: block;
+  width: 100%;
+}
+.chongqing-page .course-description .content .item .item-top .item-title {
+  position: absolute;
+  width: .7rem;
+  top: 0;
+  left: 0;
+  height: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: .21rem;
+  line-height: .24rem;
+  background-color: rgba(33, 43, 102, 0.8);
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.chongqing-page .course-description .content .item .item-top .item-title p {
+  display: block;
+  width: .23rem;
+  writing-mode: vertical-lr;
+  text-align: center;
+}
+.chongqing-page .course-description .content .item .item-top .item-title span {
+  font-size: .12rem;
+}
+.chongqing-page .course-description .content .item .item-detail {
+  width: 100%;
+  height: 1.65rem;
+  border: 1px solid #cccccc;
+  font-size: .18rem;
+  padding: .2rem .05rem;
+}
+.chongqing-page .course-description .content .item .item-detail p {
+  text-indent: .36rem;
+}
+.chongqing-page .advantage {
+  text-align: center;
+}
+.chongqing-page .advantage .content {
+  background-color: #fafafa;
+  margin-top: .3rem;
+  padding-bottom: .2rem;
+}
+.chongqing-page .advantage h5 {
+  padding-top: .35rem;
+  font-size: .22rem;
+  line-height: .66rem;
+  color: #212b66;
+}
+.chongqing-page .advantage h5 i {
+  display: inline-block;
+  width: .66rem;
+  height: .66rem;
+  vertical-align: top;
+  margin-right: .15rem;
+}
+.chongqing-page .advantage .swiper-container {
+  padding-bottom: .4rem;
+}
+.chongqing-page .advantage .qiaosen,
+.chongqing-page .advantage .else {
+  width: 50%;
+  height: 2.1rem;
+  float: left;
+  padding-top: 1rem;
+  margin-top: .5rem;
+  background-repeat: no-repeat;
+  background-position: center .1rem;
+  background-size: 2.1rem;
+  font-size: .18rem;
+  line-height: .36rem;
+}
+.chongqing-page .advantage .qiaosen {
+  background-image: url(../images/chongqing/qiaosen.png);
+  border-right: 1px solid #999999;
+}
+.chongqing-page .advantage .else {
+  background-image: url(../images/chongqing/else.png);
+}
+.chongqing-page .advantage .swiper-pagination-bullet {
+  display: inline-block;
+  background-color: #cccccc;
+  width: .5rem;
+  height: .03rem;
+  border-radius: 0;
+  margin: 0 .04rem;
+}
+.chongqing-page .advantage .swiper-pagination-bullet-active {
+  background-color: #212b66;
+}
+.chongqing-page .process img {
+  display: block;
+  width: 6rem;
+  margin-top: .2rem;
+}
+.chongqing-page .process ul {
+  display: none;
+}
+.chongqing-page .apply {
+  background-image: url(../images/chongqing/apply-bg.jpg);
+  background-size: 100%;
+  padding-top: .2rem;
+  padding-bottom: .5rem;
+}
+.chongqing-page .apply .title h3 {
+  color: #ffffff;
+}
+.chongqing-page .apply .title .en {
+  color: #ffffff;
+}
+.chongqing-page .apply input {
+  display: block;
+  margin: 0 auto;
+  margin-top: .4rem;
+  width: 4.72rem;
+  height: .6rem;
+  line-height: .6rem;
+  border-radius: .05rem;
+  border: none;
+  font-size: .18rem;
+  color: #999999;
+  padding: 0 .25rem;
+}
+.chongqing-page .apply .btn {
+  margin-top: .7rem;
+}

@@ -1,0 +1,118 @@
+/**
+ * sprite-mode:rem;
+ */
+i.new-rule-icon{
+	/*sprite-image:"../images/icon/new-rule-icon.png";*/
+}
+
+i.more-icon{
+	/*sprite-image:"../images/icon/more-icon.png";*/
+}
+i.bar-chat-icon{
+	width: .31rem;
+	height: .35rem;
+	/*sprite-image:"../images/icon/bar-chat.png";*/
+}
+i.bar-phone-icon{
+	width: .36rem;
+	height: .35rem;
+	/*sprite-image:"../images/icon/bar-phone.png";*/
+}
+i.bar-top-icon{
+	width: .25rem;
+	height: .11rem;
+	/*sprite-image:"../images/icon/bar-top.png";*/
+}
+i.address-icon{
+	/*sprite-image:"../images/icon/address-icon.png";*/
+}
+i.phone-icon{
+	/*sprite-image:"../images/icon/phone-icon.png";*/
+}
+i.email-icon{
+	/*sprite-image:"../images/icon/email-icon.png";*/
+}
+i.url-icon{
+	/*sprite-image:"../images/icon/url-icon.png";*/
+}
+i.contact-way{
+	/*sprite-image:"../images/icon/contact-way.png";*/
+}
+i.hotline-icon{
+	/*sprite-image:"../images/icon/hotline-icon.png";*/
+}
+i.price-icon{
+	/*sprite-image:"../images/icon/price-icon.png";*/
+}
+i.order-icon{
+	/*sprite-image:"../images/icon/order-icon.png";*/
+}
+i.mode-icon{
+	/*sprite-image:"../images/icon/mode-icon.png";*/
+}
+i.coach-icon{
+	/*sprite-image:"../images/icon/coach-icon.png";*/
+}
+i.protect-icon{
+	/*sprite-image:"../images/icon/protect-icon.png";*/
+}
+i.exam-icon{
+	/*sprite-image:"../images/icon/exam-icon.png";*/
+}
+i.facility-icon{
+	/*sprite-image:"../images/icon/facility-icon.png";*/
+}
+i.service-icon{
+	/*sprite-image:"../images/icon/service-icon.png";*/
+}
+i.time-icon{
+	/*sprite-image:"../images/icon/time-icon.png";*/
+}
+i.arrow-icon{
+	/*sprite-image:"../images/icon/arrow-icon.png";*/
+}
+.active i.arrow-icon{
+	/*sprite-image:"../images/icon/arrow-active-icon.png";*/
+}
+i.article-more{
+	/*sprite-image:"../images/icon/article-more.png";*/
+}
+.article-page i.address-icon{
+	/*sprite-image:"../images/icon/a-address.png";*/
+}
+.article-page i.phone-icon{
+	/*sprite-image:"../images/icon/a-phone.png";*/
+}
+.article-page i.email-icon{
+	/*sprite-image:"../images/icon/a-email.png";*/
+}
+i.prev-icon{
+	/*sprite-image:"../images/icon/prev-icon.png";*/
+}
+i.next-icon{
+	/*sprite-image:"../images/icon/next-icon.png";*/
+}
+a.search-icon{
+	/*sprite-image:"../images/icon/search-icon.png";*/
+}
+a.like-icon{
+	/*sprite-image:"../images/icon/like-icon.png";*/
+}
+a.share-icon{
+	/*sprite-image:"../images/icon/share-icon.png";*/
+}
+.active a.like-icon{
+	/*sprite-image:"../images/icon/like-active.png";*/
+}
+.active a.share-icon{
+	/*sprite-image:"../images/icon/share-active.png";*/
+}
+a.weibo-icon{
+	/*sprite-image:"../images/icon/weibo-icon.png";*/
+}
+a.wechat-icon{
+	/*sprite-image:"../images/icon/wechat-icon.png";*/
+}
+a.qq-icon{
+	/*sprite-image:"../images/icon/qq-icon.png";*/
+}

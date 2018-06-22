@@ -1,0 +1,192 @@
+/**
+ * sprite-mode:rem;
+ */
+i.new-rule-icon{
+	/*sprite-image:"../images/icon/new-rule-icon.png";*/
+    background-position:-2.88rem -2.54rem;
+}
+
+i.more-icon{
+	/*sprite-image:"../images/icon/more-icon.png";*/
+    background-position:0 -3.23rem;
+}
+i.bar-chat-icon{
+	width: .31rem;
+	height: .35rem;
+	/*sprite-image:"../images/icon/bar-chat.png";*/
+    background-position:-1.2rem -2.28rem;
+}
+i.bar-phone-icon{
+	width: .36rem;
+	height: .35rem;
+	/*sprite-image:"../images/icon/bar-phone.png";*/
+    background-position:-2.28rem -1.8rem;
+}
+i.bar-top-icon{
+	width: .25rem;
+	height: .11rem;
+	/*sprite-image:"../images/icon/bar-top.png";*/
+    background-position:-0.83rem -2.88rem;
+}
+i.address-icon{
+	/*sprite-image:"../images/icon/address-icon.png";*/
+    background-position:-2.88rem -0.4rem;
+}
+i.phone-icon{
+	/*sprite-image:"../images/icon/phone-icon.png";*/
+    background-position:-2.88rem -0.76rem;
+}
+i.email-icon{
+	/*sprite-image:"../images/icon/email-icon.png";*/
+    background-position:-2.88rem -1.12rem;
+}
+i.url-icon{
+	/*sprite-image:"../images/icon/url-icon.png";*/
+    background-position:-2.88rem -1.48rem;
+}
+i.contact-way{
+	/*sprite-image:"../images/icon/contact-way.png";*/
+    background-position:-1.61rem -2.28rem;
+}
+i.hotline-icon{
+	/*sprite-image:"../images/icon/hotline-icon.png";*/
+    background-position:-3.52rem 0;
+}
+i.price-icon{
+	/*sprite-image:"../images/icon/price-icon.png";*/
+    background-position:0 0;
+}
+i.order-icon{
+	/*sprite-image:"../images/icon/order-icon.png";*/
+    background-position:-0.76rem -1.52rem;
+}
+i.mode-icon{
+	/*sprite-image:"../images/icon/mode-icon.png";*/
+    background-position:0 -1.52rem;
+}
+i.coach-icon{
+	/*sprite-image:"../images/icon/coach-icon.png";*/
+    background-position:-1.52rem -0.76rem;
+}
+i.protect-icon{
+	/*sprite-image:"../images/icon/protect-icon.png";*/
+    background-position:-1.52rem 0;
+}
+i.exam-icon{
+	/*sprite-image:"../images/icon/exam-icon.png";*/
+    background-position:-0.76rem -0.76rem;
+}
+i.facility-icon{
+	/*sprite-image:"../images/icon/facility-icon.png";*/
+    background-position:0 -0.76rem;
+}
+i.service-icon{
+	/*sprite-image:"../images/icon/service-icon.png";*/
+    background-position:-0.76rem 0;
+}
+i.time-icon{
+	/*sprite-image:"../images/icon/time-icon.png";*/
+    background-position:-1.52rem -1.52rem;
+}
+i.arrow-icon{
+	/*sprite-image:"../images/icon/arrow-icon.png";*/
+    background-position:-0.59rem -2.88rem;
+}
+.active i.arrow-icon{
+	/*sprite-image:"../images/icon/arrow-active-icon.png";*/
+    background-position:-0.35rem -2.88rem;
+}
+i.article-more{
+	/*sprite-image:"../images/icon/article-more.png";*/
+    background-position:-3.52rem -0.27rem;
+}
+.article-page i.address-icon{
+	/*sprite-image:"../images/icon/a-address.png";*/
+    background-position:-2.88rem -1.84rem;
+}
+.article-page i.phone-icon{
+	/*sprite-image:"../images/icon/a-phone.png";*/
+    background-position:-2.88rem -2.19rem;
+}
+.article-page i.email-icon{
+	/*sprite-image:"../images/icon/a-email.png";*/
+    background-position:0 -2.88rem;
+}
+i.prev-icon{
+	/*sprite-image:"../images/icon/prev-icon.png";*/
+    background-position:-3.28rem -0.3rem;
+}
+i.next-icon{
+	/*sprite-image:"../images/icon/next-icon.png";*/
+    background-position:-3.28rem 0;
+}
+a.search-icon{
+	/*sprite-image:"../images/icon/search-icon.png";*/
+    background-position:-0.6rem -2.28rem;
+}
+a.like-icon{
+	/*sprite-image:"../images/icon/like-icon.png";*/
+    background-position:-2.28rem 0;
+}
+a.share-icon{
+	/*sprite-image:"../images/icon/share-icon.png";*/
+    background-position:-2.28rem -0.6rem;
+}
+.active a.like-icon{
+	/*sprite-image:"../images/icon/like-active.png";*/
+    background-position:-2.28rem -1.2rem;
+}
+.active a.share-icon{
+	/*sprite-image:"../images/icon/share-active.png";*/
+    background-position:0 -2.28rem;
+}
+a.weibo-icon{
+	/*sprite-image:"../images/icon/weibo-icon.png";*/
+    background-position:-2.03rem -2.28rem;
+}
+a.wechat-icon{
+	/*sprite-image:"../images/icon/wechat-icon.png";*/
+    background-position:-2.88rem 0;
+}
+a.qq-icon{
+	/*sprite-image:"../images/icon/qq-icon.png";*/
+    background-position:-2.43rem -2.28rem;
+}
+/*sprite start*/
+i.new-rule-icon,
+i.more-icon,
+i.bar-chat-icon,
+i.bar-phone-icon,
+i.bar-top-icon,
+i.address-icon,
+i.phone-icon,
+i.email-icon,
+i.url-icon,
+i.contact-way,
+i.hotline-icon,
+i.price-icon,
+i.order-icon,
+i.mode-icon,
+i.coach-icon,
+i.protect-icon,
+i.exam-icon,
+i.facility-icon,
+i.service-icon,
+i.time-icon,
+i.arrow-icon,
+.active i.arrow-icon,
+i.article-more,
+.article-page i.address-icon,
+.article-page i.phone-icon,
+.article-page i.email-icon,
+i.prev-icon,
+i.next-icon,
+a.search-icon,
+a.like-icon,
+a.share-icon,
+.active a.like-icon,
+.active a.share-icon,
+a.weibo-icon,
+a.wechat-icon,
+a.qq-icon{background-image:url(../images/sprite1.png);background-size:3.77rem auto}
+/*sprite end*/

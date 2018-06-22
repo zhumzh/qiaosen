@@ -1,0 +1,115 @@
+.about-page .intro .content {
+  border-bottom: 0;
+}
+.about-page .intro .content p {
+  margin: .2rem 0;
+}
+.about-page .intro .img img {
+  display: block;
+  width: 100%;
+}
+.about-page .dev-path {
+  background-color: #212b66;
+  padding: .25rem .2rem;
+}
+.about-page .dev-path .title h3 {
+  color: #ffffff;
+}
+.about-page .dev-path .title .en {
+  color: #999999;
+}
+.about-page .dev-path .swiper-slide {
+  padding-bottom: .7rem;
+}
+.about-page .dev-path .swiper-slide .img,
+.about-page .dev-path .swiper-slide .txt {
+  display: inline-block;
+  vertical-align: top;
+}
+.about-page .dev-path .swiper-slide .img {
+  padding-top: .2rem;
+}
+.about-page .dev-path .swiper-slide .img img {
+  width: 2.3rem;
+}
+.about-page .dev-path .swiper-slide .txt {
+  width: 3.3rem;
+  color: #ffffff;
+}
+.about-page .dev-path .swiper-slide .txt h3 {
+  font-size: .7rem;
+}
+.about-page .dev-path .swiper-slide .txt p {
+  font-size: .16rem;
+  line-height: .18rem;
+}
+.about-page .dev-path .swiper-slide:nth-child(1) .img,
+.about-page .dev-path .swiper-slide:nth-child(3) .img {
+  margin-right: .2rem;
+}
+.about-page .dev-path .swiper-slide:nth-child(2) .txt,
+.about-page .dev-path .swiper-slide:nth-child(4) .txt {
+  margin-right: .2rem;
+}
+.about-page .dev-path .swiper-slide:nth-child(2) h3,
+.about-page .dev-path .swiper-slide:nth-child(4) h3 {
+  text-align: right;
+}
+.about-page .dev-path .swiper-pagination-bullets .swiper-pagination-bullet {
+  bottom: 0;
+  width: .74rem;
+  height: 2px;
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 0;
+  position: relative;
+}
+.about-page .dev-path .swiper-pagination-bullets .swiper-pagination-bullet:before {
+  position: absolute;
+  font-size: .15rem;
+  top: -0.25rem;
+  left: .2rem;
+}
+.about-page .dev-path .swiper-pagination-bullets .swiper-pagination-bullet:nth-child(1):before {
+  content: '2014';
+}
+.about-page .dev-path .swiper-pagination-bullets .swiper-pagination-bullet:nth-child(2):before {
+  content: '2015';
+}
+.about-page .dev-path .swiper-pagination-bullets .swiper-pagination-bullet:nth-child(3):before {
+  content: '2016';
+}
+.about-page .dev-path .swiper-pagination-bullets .swiper-pagination-bullet:nth-child(4):before {
+  content: '2017';
+}
+.about-page .dev-path .swiper-container-horizontal .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 .1rem;
+}
+.about-page .dev-path .swiper-container-horizontal .swiper-pagination-bullets .swiper-pagination-bullet-active {
+  color: #499aff;
+  background-color: #499aff;
+}
+.about-page .students .des {
+  font-size: .18rem;
+  line-height: .25rem;
+  text-align: center;
+}
+.about-page .students ul {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about-page .students ul li {
+  width: 2.7rem;
+  overflow: hidden;
+  border: 2px solid #004a74;
+  margin-top: .25rem;
+}
+.about-page .students ul li img {
+  display: block;
+  width: 100%;
+}
+.about-page .coach .content img {
+  width: 100%;
+}
